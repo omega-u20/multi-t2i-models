@@ -10,16 +10,16 @@ load_dotenv()
 
 hf_token = os.getenv("HF_TOKEN")
 
-models=["flux","krea","flux-real"]
+models=["flux","krea"]#,"flux-real"]
 model_dir={
     "flux":{
         "x_model":"black-forest-labs/FLUX.1-schnell",
         "x_provider":"nscale"
     },
-    "flux-real":{
+"""     "flux-real":{
         "x_model":"XLabs-AI/flux-RealismLora",
         "x_provider":"fal-ai"
-    },
+    }, """
     "krea":{
         "x_model":"krea/Krea-2-Turbo",
         "x_provider":"fal-ai"

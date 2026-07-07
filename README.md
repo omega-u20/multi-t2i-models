@@ -6,7 +6,7 @@ A command-line interface (CLI) application that generates images from text promp
 
 - **Multiple Models Supported**:
   - `flux` (`black-forest-labs/FLUX.1-schnell` via `nscale`)
-  - `flux-real` (`XLabs-AI/flux-RealismLora` via `fal-ai`)
+  - `flux-real` (`XLabs-AI/flux-RealismLora` via `fal-ai`) [not working]
   - `krea` (`krea/Krea-2-Turbo` via `fal-ai`)
 - **Interactive Interface**: Choose your model, input custom prompts, and set desired dimensions (height and width).
 - **Metadata Embedding**: Prompt metadata is automatically saved inside the generated PNG images.
